@@ -39,7 +39,7 @@ const generatePhrases = () => {
   let coffees = makeMultiple(3);
 
   coffees.forEach(
-    ({ phrase }) =>
+    (phrase ) =>
       (output += `
               <div class="card">
                 <h2>${phrase}<h2/>
