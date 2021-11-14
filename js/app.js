@@ -1,4 +1,4 @@
-
+const container = document.querySelector(".container");
 const beginings = [
   "b1",
   "b2"
