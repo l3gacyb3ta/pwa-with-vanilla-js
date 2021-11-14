@@ -30,6 +30,7 @@ const makeMultiple = (num) => {
   for (let i = 0; i < num; i++) {
     output.push(generatePhrase())
   } 
+  return output
 }
 
 const generatePhrases = () => {
