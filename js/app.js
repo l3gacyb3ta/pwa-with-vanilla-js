@@ -1,17 +1,76 @@
 const container = document.querySelector(".container");
 const beginings = [
-  "b1",
-  "b2"
+  "Champ",
+  "Fact:",
+  "Everybody says",
+  "Dang...",
+  "Check it:",
+  "Just saying...",
+  "Superstar,",
+  "Tiger,",
+  "Self,",
+  "Know this:",
+  "News Alert:",
+  "Girl,","Ace,","Excuse me but", "Experts Agree",
+  "In my opinion,",
+  "Hear ye, hear ye:",
+  "Okay, listen up:"
 ];
 
 const middles = [
-  "m1",
-  "m2"
+  "the mere idea of you",
+  "your soul",
+  "your hair today",
+  "everything you do",
+  "your personal style",
+  "every thought you have",
+  "that sparkle in you eye",
+  "your presence here",
+  "what you got going on",
+  "the essential you",
+  "your life's journey",
+  "that saucey personality",
+  "your DNA",
+  "that brain of yours",
+  "your choice of attaire",
+  "the way you roll",
+  "all of y'all"
+];
+
+const middleends = [
+  "has serious game,",
+  "rains magic,",
+  "deserves the Nobel Prize,",
+  "raises the roof,",
+  "breeds miracles,",
+  "is paying off big time,",
+  "shows mad skills,",
+  "just shimmers,",
+  "is a national treasure,",
+  "gets the party hopping,",
+  "is the next big thing,",
+  "roars like a lion,",
+  "is a rainbow factory,",
+  "is made of diamonds,",
+  "should be tought in school,",
+  "is 100% legit,",
 ];
 
 const ends = [
-  "e1",
-  "e2"
+  "24/7",
+  "can I get an amen",
+  "and that's a fact",
+  "so treat yourself",
+  "that's just science",
+  "for reals",
+  "mic drop",
+  "you hidden gem",
+  "snuggle bear",
+  "period",
+  "now let's dance",
+  "high five",
+  "according to CNN",
+  "so get used to it"
 ];
 
 
@@ -21,7 +80,7 @@ const randomElement = (array) => {
 }
 
 const generatePhrase = () => {
-  return randomElement(beginings) + " " + randomElement(middles) + " " + randomElement(ends) + "."
+  return randomElement(beginings) + " " + randomElement(middles) + " " + randomElement(middleends) + " " + randomElement(ends) + "."
 };
 
 const makeMultiple = (num) => {
